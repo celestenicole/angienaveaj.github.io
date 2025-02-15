@@ -5,12 +5,70 @@
 }
 
 body {
-    font-family: "Kumbh Sans", serif;
+    font-family: "Poppins", serif;
+    background-color: #ece8ff;
 }
 
 h1,
 h2,
 h3 {
-    text-transform: uppercase;
     font-weight: 700 !important;
+}
+
+/*Menu*/
+.contenedor-lista-menu {
+    width: 100%;
+}
+
+.nav-link {
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+/*Banner*/
+.bg-banner {
+    background: #562abd;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #562abd);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #210c6e, #562abd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0;
+}
+
+.row-banner {
+    width: 100%;
+    color:#fff;
+}
+
+.contenedor-titulos {
+    margin: 0 auto;
+}
+.animacion {
+    animation-duration: 3s;
+    animation-name: slide;
+}
+@keyframes slide {
+    0% {
+        transform: translateX(-250%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    } 
+}
+.animacion2 {
+    animation-name: slide2;
+}
+@keyframes slide2 {
+    0% {
+        transform: translateX(-350%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    } 
 }
