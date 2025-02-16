@@ -15,8 +15,8 @@
 <body>
     <!--navegacion-->
     <header class="container-fluid bg-banner">
-      <nav class="navbar navbar-expand-sm navbar-dark">
-        <div class="container-fluid">
+      <nav class="navbar navbar-expand-sm navbar-dark front bg-menu">
+        <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="Assets/img/Logo-angie.png" alt="Logo Angie Navea" width="100%" height="50" class="d-inline-block align-text-top">
               </a> 
@@ -42,22 +42,89 @@
       </nav>
 
     <!--banner>-->
-
-        <div class="row align-items-center gap-0 row-banner pt-4">
+        <div class="row align-items-center gap-0 row-banner pt-4 front">
             <div class="col-md-6 d-flex flex-column">
                 <div class="contenedor-titulos">
                     <h1 class="animacion display-2">Angie Navea</h1>
-                    <h2 class="animacion animacion2">Diseñadora Frontend</h2>
+                    <h2 class="animacion animacion2 turqueza">Diseñadora Front-end</h2>
+                    <h6 class="animacion animacion2 d-none d-md-block">Soy una profesional creativa especializada en diseño y desarrollo front-end. Ofreciendo soluciones visuales y funcionales de alta calidad.</h6>
+                    <div class="d-none d-md-block">
+                        <a href="" class="animacion animacion2 btn boton mt-4">Ver portafolio</a>
+                        <a href="" class="animacion animacion2 btn boton-outline btn-hero mt-4">Contacto</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 animacion animacion2">
                 <img src="Assets/img/imagen-perfil-3__.png" class="img-fluid" alt="imagen perfil Angie">
             </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#fff" fill-opacity="1" d="M0,32L48,48C96,64,192,96,288,101.3C384,107,480,85,576,96C672,107,768,149,864,176C960,203,1056,213,1152,202.7C1248,192,1344,160,1392,144L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+
+        <div class="bg-imagen"></div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="front">
+            <path fill="#f9fbfc" fill-opacity="1" d="M0,32L48,48C96,64,192,96,288,101.3C384,107,480,85,576,96C672,107,768,149,864,176C960,203,1056,213,1152,202.7C1248,192,1344,160,1392,144L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
         </svg>
     </header>
+
+    <main class="container">
+        <section class="row mb-5 d-md-flex align-items-md-center">
+            <article class="col-md-3">
+                <span class="badge badge-pill bg-purple label">Mis habilidades</span>
+                <h2>Mis áreas de especialización</h2>
+                <p>Creo conceptos desde la idea hasta el proyecto final</p>
+            </article>
+            <article class="col-md-9">
+                <div class="row my-2">
+                    <article class="col-6 my-2">
+                        <div class="card tarjeta py-4">
+                            <div class="bg-yellow circle">
+                                <i class="fa-regular fa-object-group icono"></i>
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">Diseño gráfico</h5>
+                              <p class="card-text">Creo diseños visuales impactantes y funcionales, utilizando herramientas avanzadas para comunicar ideas de manera clara y atractiva.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-6 my-2">
+                        <div class="card tarjeta py-4">
+                            <div class="circle bg-red">
+                                <i class="fa-regular fa-file-code icono"></i>
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">Desarrollo Frontend</h5>
+                              <p class="card-text">Desarrollador frontend con experiencia en HTML, CSS y JavaScript, creando interfaces de usuario interactivas, rápidas y responsivas..</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="row my-2">
+                    <article class="col-6 my-2">
+                        <div class="card tarjeta py-4">
+                            <div class="circle bg-purple">
+                                <i class="fa-solid fa-bezier-curve icono"></i>
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">Ilustración SVG</h5>
+                              <p class="card-text">Diseño ilustraciones vectoriales escalables en formato SVG, ideales para sitios web y aplicaciones, asegurando alta calidad y versatilidad.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-6 my-2">
+                        <div class="card tarjeta py-4">
+                            <div class="circle bg-green">
+                                <i class="fa-brands fa-figma icono"></i>
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">UX/UI</h5>
+                              <p class="card-text">Me especializo en crear experiencias de usuario intuitivas y atractivas, combinando investigación, prototipado y diseño visual para optimizar la interacción.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+            </article>
+        </section>
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
