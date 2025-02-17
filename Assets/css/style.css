@@ -248,6 +248,12 @@ p {
 }
 
 
+/*Seccion Portafolio*/
+.carousel-inner {
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 3px rgb(220, 220, 225, 0.8);
+}
+
 /*Breakpoints*/
 @media (min-width:768px){
     .bg-menu {
