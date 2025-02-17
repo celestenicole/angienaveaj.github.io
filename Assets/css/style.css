@@ -66,11 +66,6 @@ p {
     background-color: #210c6e;
 }
 
-@media (min-width:767px){
-    .bg-menu {
-        background-color: transparent;
-    }
-}
 
 /*Banner*/
 .bg-banner {
@@ -165,14 +160,14 @@ p {
 }
 
 .icono {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #fff;
     margin: 10px;
 }
 
 .circle {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     text-align: center !important;
@@ -214,4 +209,56 @@ p {
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 5px 5px 20px 3px rgb(220, 220, 225, 0.4);
     border: 1px solid rgba(255, 255, 255, 1);
+}
+
+
+/*Seccion educacion experiencia*/
+.bg-seccion-ed-ex {
+    background-color:rgba(90.99999999999967, 0, 255, 0.03);
+    background-image: url("../img/bg-formas.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seccion-ed-ex {
+    backdrop-filter: blur(60px);
+}
+
+.accordion-button {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.accordion-button {
+    background: rgba(90.99999999999967, 0, 255, 0.5) !important;
+    color:#fff !important;
+    border-radius: 10px !important;
+    margin: 5px 0;
+}
+
+.accordion-button:not(.collapsed) {
+    color:#fff !important;
+    background: #5b00ff !important;
+}
+
+.accordion-item {
+    border: none;
+    box-shadow: 5px 5px 20px 3px rgb(220, 220, 225, 0.6);
+    border-radius: 10px !important;
+}
+
+
+/*Breakpoints*/
+@media (min-width:768px){
+    .bg-menu {
+        background-color: transparent;
+    }
+    .icono {
+        font-size: 1.5rem;
+    }
+    
+    .circle {
+        width: 60px;
+        height: 60px;
+    }
 }
