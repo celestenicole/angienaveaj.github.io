@@ -28,6 +28,14 @@ p {
     font-weight: 300;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 .turqueza {
     color: #00cda6;
 }
@@ -151,6 +159,19 @@ p {
     } 
 }
 
+
+/*Main*/
+.bg-main {
+    /*background-color:rgba(90.99999999999967, 0, 255, 0.03);*/
+    background-image: url("../img/bg-formas.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-filter {
+    backdrop-filter: blur(60px);
+}
+
 .label {
     text-transform: uppercase;
     font-weight: 300;
@@ -206,24 +227,13 @@ p {
 .tarjeta {
     border: none;
     border-radius: 10px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.5);
     box-shadow: 5px 5px 20px 3px rgb(220, 220, 225, 0.4);
     border: 1px solid rgba(255, 255, 255, 1);
 }
 
 
 /*Seccion educacion experiencia*/
-.bg-seccion-ed-ex {
-    background-color:rgba(90.99999999999967, 0, 255, 0.03);
-    background-image: url("../img/bg-formas.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.seccion-ed-ex {
-    backdrop-filter: blur(60px);
-}
-
 .accordion-button {
     font-size: 1.1rem;
     font-weight: 700;
@@ -254,6 +264,27 @@ p {
     box-shadow: 5px 5px 20px 3px rgb(220, 220, 225, 0.8);
 }
 
+
+/*Footer*/
+.bg-footer {
+    background-color: #15004d;
+}
+
+.links-footer {
+    width: 100%;
+}
+
+.links-footer a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#wave {
+    margin-top: -1px;
+}
+
+
 /*Breakpoints*/
 @media (min-width:768px){
     .bg-menu {
@@ -266,5 +297,8 @@ p {
     .circle {
         width: 60px;
         height: 60px;
+    }
+    .img-footer {
+        width: 15%;
     }
 }
