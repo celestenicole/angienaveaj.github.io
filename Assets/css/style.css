@@ -40,6 +40,10 @@ a {
     color: #00cda6;
 }
 
+.purple {
+    color: #5b00ff;
+}
+
 .boton {
     background-color: #F23D5E;
     color:#fff;
@@ -74,6 +78,9 @@ a {
     background-color: #210c6e;
 }
 
+.bg-normal {
+    background-color: #f9fbfc;
+}
 
 /*Banner*/
 .bg-banner {
@@ -259,7 +266,8 @@ a {
 
 
 /*Seccion Portafolio*/
-.carousel-inner {
+.carousel-inner,
+.imagen-proyecto {
     border-radius: 10px;
     box-shadow: 5px 5px 20px 3px rgb(220, 220, 225, 0.8);
 }
