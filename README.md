@@ -19,11 +19,13 @@
 <hr>
 <strong>Links Fork y commit:</strong>
 <ul>
+  <h4>Fork 01</h4>
   <li>Fork: https://github.com/angienaveaj/cristian-verdugo.github.io</li>
   <li>Commits en proyecto Fork: https://github.com/angienaveaj/cristian-verdugo.github.io/commits/main/</li>
 </ul>
-<hr>
+
 <ul>
+  <h4>Fork 02</h4>
   <li>Fork: https://github.com/TomasAvendanoH/CV/compare/main...angienaveaj:CVTomasAvendanoH:main</li>
   <li>Commits en proyecto Fork: https://github.com/TomasAvendanoH/CV/compare/main...angienaveaj:CVTomasAvendanoH:main</li>
 </ul>
