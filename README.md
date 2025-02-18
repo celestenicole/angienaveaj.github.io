@@ -1,6 +1,6 @@
 Link github page: https://angienaveaj.github.io/
 
-Links Deploy del proyecto:
+<strong>Links Deploy del proyecto:</strong>
 <ul>
   <li>https://github.com/angienaveaj/angienaveaj.github.io/actions/runs/13348079689</li>
   <li>https://github.com/angienaveaj/angienaveaj.github.io/actions/runs/13348122021</li>
@@ -17,7 +17,11 @@ Links Deploy del proyecto:
   <li>https://github.com/angienaveaj/angienaveaj.github.io/actions/runs/13376972681</li>
 </ul>
 
-Links Fork y commit:
+<strong>Links Fork y commit:</strong>
+<ul>
+  <li>Fork: https://github.com/angienaveaj/cristian-verdugo.github.io</li>
+  <li>Commits en proyecto FOrk: https://github.com/angienaveaj/cristian-verdugo.github.io/commits/main/</li>
+</ul>
 
 
 
