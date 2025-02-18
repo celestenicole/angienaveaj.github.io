@@ -16,12 +16,13 @@
   <li>https://github.com/angienaveaj/angienaveaj.github.io/actions/runs/13376536930</li>
   <li>https://github.com/angienaveaj/angienaveaj.github.io/actions/runs/13376972681</li>
 </ul>
-
+<hr>
 <strong>Links Fork y commit:</strong>
 <ul>
   <li>Fork: https://github.com/angienaveaj/cristian-verdugo.github.io</li>
   <li>Commits en proyecto Fork: https://github.com/angienaveaj/cristian-verdugo.github.io/commits/main/</li>
 </ul>
+<hr>
 <ul>
   <li>Fork: https://github.com/TomasAvendanoH/CV/compare/main...angienaveaj:CVTomasAvendanoH:main</li>
   <li>Commits en proyecto Fork: https://github.com/TomasAvendanoH/CV/compare/main...angienaveaj:CVTomasAvendanoH:main</li>
