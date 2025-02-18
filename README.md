@@ -1,4 +1,4 @@
-<strong>Link github page:</strong> <h4>https://angienaveaj.github.io/</h4>
+<h4><strong>Link github page:</strong> https://angienaveaj.github.io/</h4>
 
 <strong>Links Deploy del proyecto:</strong>
 <ul>
