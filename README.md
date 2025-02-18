@@ -20,9 +20,12 @@ Link github page: https://angienaveaj.github.io/
 <strong>Links Fork y commit:</strong>
 <ul>
   <li>Fork: https://github.com/angienaveaj/cristian-verdugo.github.io</li>
-  <li>Commits en proyecto FOrk: https://github.com/angienaveaj/cristian-verdugo.github.io/commits/main/</li>
+  <li>Commits en proyecto Fork: https://github.com/angienaveaj/cristian-verdugo.github.io/commits/main/</li>
 </ul>
-
+<ul>
+  <li>Fork: https://github.com/TomasAvendanoH/CV/compare/main...angienaveaj:CVTomasAvendanoH:main</li>
+  <li>Commits en proyecto Fork: https://github.com/TomasAvendanoH/CV/compare/main...angienaveaj:CVTomasAvendanoH:main</li>
+</ul>
 
 
 
