@@ -26,7 +26,7 @@
 
 <ul>
   <h4>Fork 02</h4>
-  <li>Fork: https://github.com/TomasAvendanoH/CV/compare/main...angienaveaj:CVTomasAvendanoH:main</li>
+  <li>Fork: https://github.com/angienaveaj/CVTomasAvendanoH</li>
   <li>Commits en proyecto Fork: https://github.com/TomasAvendanoH/CV/compare/main...angienaveaj:CVTomasAvendanoH:main</li>
 </ul>
 
