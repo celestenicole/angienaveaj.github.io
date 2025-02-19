@@ -1,6 +1,6 @@
 <h3><strong>Link github page:</strong> https://angienaveaj.github.io/</h3>
 <hr>
-<strong>Links Deploy del proyecto:</strong>
+<strong>Links "pages build and deployment" del proyecto:</strong>
 <ul>
   <li>https://github.com/angienaveaj/angienaveaj.github.io/actions/runs/13348079689</li>
   <li>https://github.com/angienaveaj/angienaveaj.github.io/actions/runs/13348122021</li>
