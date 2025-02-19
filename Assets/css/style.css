@@ -45,7 +45,7 @@ a {
 }
 
 .purple {
-    color: #5b00ff;
+    color: #0a0316;
 }
 
 .boton {
@@ -96,7 +96,7 @@ main {
 }
 
 .bg-banner {
-    background: #562abd;  /* fallback for old browsers */
+    background: #877aa5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #B06AB3, #562abd);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #210c6e, #562abd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 0;
@@ -296,7 +296,28 @@ main {
 
 /*Footer*/
 .bg-footer {
-    background-color: #15004d;
+    background: linear-gradient(180deg, #b469e9, #15004d);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.bg-footer img {
+    width: 100px; 
+    margin-bottom: 10px;
+}
+
+.bg-footer nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-weight: bold;
+}
+
+.bg-footer p {
+    margin-top: 10px;
+    font-size: 14px;
+  
 }
 
 .links-footer {
